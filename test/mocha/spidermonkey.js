@@ -1,6 +1,6 @@
 var assert = require("assert");
 var exec = require("child_process").exec;
-var semver = require("semver");
+var semver = require("../semver");
 var UglifyJS = require("../..");
 
 describe("spidermonkey export/import sanity test", function() {

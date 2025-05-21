@@ -2,7 +2,7 @@ var assert = require("assert");
 var exec = require("child_process").exec;
 var fs = require("fs");
 var run_code = require("../sandbox").run_code;
-var semver = require("semver");
+var semver = require("../semver");
 var to_ascii = require("../node").to_ascii;
 
 function read(path) {

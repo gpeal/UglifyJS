@@ -1,7 +1,7 @@
 var assert = require("assert");
 var readFileSync = require("fs").readFileSync;
 var run_code = require("../sandbox").run_code;
-var semver = require("semver");
+var semver = require("../semver");
 var UglifyJS = require("../..");
 
 function read(path) {

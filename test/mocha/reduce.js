@@ -1,7 +1,7 @@
 var assert = require("assert");
 var fs = require("fs");
 var reduce_test = require("../reduce");
-var semver = require("semver");
+var semver = require("../semver");
 
 function read(path) {
     return fs.readFileSync(path, "utf8");

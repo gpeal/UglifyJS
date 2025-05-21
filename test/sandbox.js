@@ -1,5 +1,5 @@
 var readFileSync = require("fs").readFileSync;
-var semver = require("semver");
+var semver = require("./semver");
 var spawnSync = require("child_process").spawnSync;
 var vm = require("vm");
 
