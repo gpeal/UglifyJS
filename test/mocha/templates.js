@@ -1,6 +1,6 @@
 var assert = require("assert");
 var run_code = require("../sandbox").run_code;
-var semver = require("semver");
+var semver = require("../semver");
 var UglifyJS = require("../node");
 
 describe("Template literals", function() {

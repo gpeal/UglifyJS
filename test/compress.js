@@ -7,7 +7,7 @@ var child_process = require("child_process");
 var fs = require("fs");
 var path = require("path");
 var sandbox = require("./sandbox");
-var semver = require("semver");
+var semver = require("./semver");
 var U = require("./node");
 
 var batch = 50;
